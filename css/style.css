@@ -122,3 +122,29 @@ td, th {
 tr:nth-child(even) {
   background-color: #b6dfe3;
 }
+
+/* partners */
+.partners{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.partners h2{
+  letter-spacing: -2px;
+  font-weight: 900;
+}
+.partners-container{
+  display:flex ;
+  justify-content:space-around;
+  align-items: center;
+  flex:1;
+}
+
+.partner img{
+  width: 100%;
+  flex: 1;
+  height: 150px;
+}
