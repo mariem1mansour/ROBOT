@@ -29,6 +29,9 @@ margin-bottom: 1rem;
 p{
   margin-bottom: 0.8rem;
 }
+img{
+  width: 100%;
+}
 .btn {
   display: inline-block;
   border-radius: 30px;
@@ -53,7 +56,7 @@ color: white;}
 
 /* container */
 .websitecontainer{
-  padding: 1rem 2rem;
+  padding: 1rem;
   background: #ecebeb;
   display: block;
   margin: auto;

@@ -22,7 +22,7 @@ color: black;
   border-bottom: 1px solid gray;
 }
 
-
+/* nav */
 
 .nav ul{
 display: flex;
@@ -35,4 +35,20 @@ height: 30px;
 .nav li a:hover{
 color: rgb(139, 139, 139);
 }
+
+/* vp */
+.vp-container{
+  height: 500px;
+  text-align: center;
+  background: url("../img/portrait-robot-scifi.jpg") center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vp{
+color: white;
+font-size: larger;
+}
+
 
