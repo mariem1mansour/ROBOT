@@ -41,16 +41,19 @@ img{
   outline: none;
   border: 0px;
   background: white;
-  color: black;
+  color: #9ECFD3;
 }
 .btn:hover{
-  background: #000;
+  background: #9ECFD3;
 color: white;}
 .seperator {
   background: #111;
   height: 1px;
   width: 600px;
   margin: 20px auto;
+}
+strong{
+  font-weight: 900;
 }
 
 

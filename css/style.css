@@ -1,5 +1,5 @@
 /* header */
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,14 +7,16 @@
   height: 50px;
 }
 
-.logo h2 a{
-color: black;
+.logo h2 a {
+  color: black;
 }
-.logo h2{
+
+.logo h2 {
   margin-bottom: 0;
   letter-spacing: -2px;
 }
-.search-bar input{
+
+.search-bar input {
   margin-right: 10px;
   border: none;
   padding: 8px;
@@ -24,20 +26,21 @@ color: black;
 
 /* nav */
 
-.nav ul{
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-bottom: 20px;
-height: 30px;
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 30px;
 
 }
-.nav li a:hover{
-color: rgb(139, 139, 139);
+
+.nav li a:hover {
+  color: rgb(139, 139, 139);
 }
 
 /* vp */
-.vp-container{
+.vp-container {
   height: 500px;
   text-align: center;
   background: url("../img/portrait-robot-scifi.jpg") center center/cover;
@@ -46,9 +49,49 @@ color: rgb(139, 139, 139);
   justify-content: center;
   align-items: center;
 }
-.vp{
-color: white;
-font-size: larger;
+
+.vp {
+  color: white;
+  font-size: larger;
 }
 
+/* products */
+.products {
+  text-align: center;
+  padding: 10rem 1rem;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
+
+.products-list {
+  display: flex;
+  flex: row nowrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.product {
+  margin: 1rem;
+  background: white;
+  border: 1px solid #ddd;
+  flex: 1;
+  background-color: #b6dfe3;
+}
+
+.product-img {
+  width: 100%;
+  height: 170px;
+}
+.product h4{
+  margin-top: 10px;
+}
+.product:hover{
+transform: scale(1.2,1.2);
+}
+.products h2{
+  letter-spacing: -2px;
+}
