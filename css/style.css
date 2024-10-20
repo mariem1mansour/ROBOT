@@ -80,6 +80,7 @@
   border: 1px solid #ddd;
   flex: 1;
   background-color: #b6dfe3;
+  border-radius: 20px;
 }
 
 .product-img {
@@ -94,4 +95,30 @@ transform: scale(1.2,1.2);
 }
 .products h2{
   letter-spacing: -2px;
+}
+/* achievements */
+.achievements{
+  margin-bottom: 20px;
+}
+.achievements h2,p,h4{
+text-align: center;
+}
+.achievements h2{
+  letter-spacing: -2px;
+  font-weight: 900;
+}
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b6dfe3;
 }
