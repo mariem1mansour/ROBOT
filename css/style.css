@@ -1,0 +1,38 @@
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 50px;
+}
+
+.logo h2 a{
+color: black;
+}
+.logo h2{
+  margin-bottom: 0;
+  letter-spacing: -2px;
+}
+.search-bar input{
+  margin-right: 10px;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  border-bottom: 1px solid gray;
+}
+
+
+
+.nav ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 20px;
+height: 30px;
+
+}
+.nav li a:hover{
+color: rgb(139, 139, 139);
+}
+
