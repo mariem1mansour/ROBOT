@@ -1,0 +1,23 @@
+/* about */
+/* entreprise */
+.entreprise{
+  text-align: center;
+  
+}
+.entreprise p{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+.entreprise-details{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex: 1;
+  gap: 20px;
+}
+.entreprise-details img{
+  width: 50%;
+border-radius: 40px;
+height: 300px;
+}
