@@ -213,8 +213,13 @@ margin-bottom: -40px;
   gap: 10px;
   padding: 100px;
 }
-.news-container{
-
+.news h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news a{
+  margin-bottom: 25px;
 }
 .new{
 display: grid;
@@ -233,6 +238,24 @@ justify-content: center;
   align-items: start;
 }
 
+/* ! newsletter */
+#newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 15px;
+  padding: 30px;
+  background-color: #dbe9ed;
+  margin-bottom: 30px;
+}
+.subscribe input{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  border-bottom: 1px solid rgb(126, 152, 236);
+}
 
 
 
