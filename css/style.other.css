@@ -1,23 +1,70 @@
 /* about */
 /* entreprise */
-.entreprise{
+.entreprise {
   text-align: center;
-  
+
 }
-.entreprise p{
+
+.entreprise p {
   font-size: 20px;
   letter-spacing: 0.5px;
   line-height: 1.9em;
 }
-.entreprise-details{
+
+.entreprise-details {
   display: flex;
   justify-content: space-around;
   align-items: start;
   flex: 1;
   gap: 20px;
 }
-.entreprise-details img{
+
+.entreprise-details img {
   width: 50%;
-border-radius: 40px;
-height: 300px;
+  border-radius: 40px;
+  height: 300px;
+}
+
+/* Team */
+.team {
+
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(2,300px);
+  grid-template-rows: repeat(3,500px);
+  column-gap: 50px;
+  row-gap: 50px;
+  justify-content: center;
+  align-content: center;
+  place-items: center center;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(161, 201, 222);
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.person:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.person-img {
+  margin-bottom: 10px;
+
+}
+.team-container-general{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 100px;
 }

@@ -75,6 +75,7 @@ strong {
 .title{
   letter-spacing: -2px;
   font-weight: 900;
+  padding-bottom: 10px;
 }
 
 /* container */
