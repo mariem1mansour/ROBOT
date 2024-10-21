@@ -48,6 +48,7 @@
   background-color: rgb(161, 201, 222);
   padding: 10px;
   padding-bottom: 20px;
+  
 }
 
 .person:hover {
@@ -116,6 +117,12 @@ textarea {
 iframe {
   margin: 30px;
   border-radius: 10px;
+}
+.seperator1{
+  margin: 0 20px;
+  width: 1px;
+  height: 100px;
+  background-color: #000;
 }
 
 /* shop */
