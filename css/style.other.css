@@ -26,14 +26,12 @@
 }
 
 /* Team */
-.team {
-
-}
+.team {}
 
 .team-container {
   display: grid;
-  grid-template-columns: repeat(2,300px);
-  grid-template-rows: repeat(3,500px);
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(3, 500px);
   column-gap: 50px;
   row-gap: 50px;
   justify-content: center;
@@ -60,7 +58,8 @@
   margin-bottom: 10px;
 
 }
-.team-container-general{
+
+.team-container-general {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,16 +70,19 @@
 
 
 /* contact */
-.contact-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin: 20px;
-text-align: center;
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
 
 }
-.form,.contact-detail,.info{
+
+.form,
+.contact-detail,
+.info {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -88,27 +90,116 @@ text-align: center;
   gap: 10px;
   margin: 30px;
 }
-.form input,textarea{
+
+.form input,
+textarea {
   border: none;
-padding: 10px;
-width: 300px;
-border-radius: 20px;
-border-bottom: 1px solid gray;
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border-bottom: 1px solid gray;
 }
-.contact-detail-elem{
+
+.contact-detail-elem {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.details{
+.details {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
-iframe{
+
+iframe {
   margin: 30px;
   border-radius: 10px;
 }
 
+/* shop */
+/* products :Robots */
+.robots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 30px;
+
+}
+.robots h2{
+margin-bottom: -40px;
+}
+
+.robots-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3,1fr);
+  column-gap: 50px;
+  row-gap: 40px;
+  justify-content: center;
+  align-content: center;
+  place-content: center center;
+  place-items: center center;
+  padding: 100px;
+}
+.robot{
+  background-color: #e4faff;
+
+}
+.robot:hover{
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+.robot img {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 450px;
+}
+
+.price{
+  grid-area: price;
+
+}
+
+.robot-name {
+  grid-area: name;
+}
+
+.robot-model {
+  grid-area: model;
+}
+
+.rating {
+  grid-area: stars;
+
+}
+
+.like {
+  grid-area: like;
+}
+
+.chariot {
+  grid-area: chariot;
+}
+
+.num-users {
+  grid-area: num;
+}
+
+.robot-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  align-content: center;
+  place-content: center center;
+  place-items: center center;
+  grid-template-areas:
+    "name name"
+    "model price"
+    "stars stars"
+    "like chariot";
+}
