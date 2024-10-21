@@ -68,3 +68,47 @@
   margin: 20px;
   margin-bottom: 100px;
 }
+
+
+/* contact */
+.contact-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 20px;
+text-align: center;
+
+}
+.form,.contact-detail,.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  margin: 30px;
+}
+.form input,textarea{
+  border: none;
+padding: 10px;
+width: 300px;
+border-radius: 20px;
+border-bottom: 1px solid gray;
+}
+.contact-detail-elem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+iframe{
+  margin: 30px;
+  border-radius: 10px;
+}
+
