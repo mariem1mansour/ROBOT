@@ -125,3 +125,13 @@ iframe{
 .subscribe input{
   width:250px ;
 }
+
+/* register and login */
+
+.form-container{
+  flex-direction: column;
+}
+.form-c img {
+  width: 300px;
+  border-radius: 10px;
+}
