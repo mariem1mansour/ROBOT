@@ -309,3 +309,8 @@ input {
   text-decoration: underline;
   color: rgb(33, 102, 240);
 }
+#fullnameError,#emailError,#passwordError{
+  font-size: 11px;
+  color: rgb(199, 24, 155);
+  margin-bottom: 5px;
+}
